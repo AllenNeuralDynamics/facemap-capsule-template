@@ -2,7 +2,7 @@
 import facemap
 
 def run():
-    """ basic run function """
+    """ find videos, launch facemap analysis... """
     pass
 
 if __name__ == "__main__": 
