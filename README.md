@@ -1,5 +1,5 @@
 # facemap-capsule-template
-Base CodeOcean capsule with a working install of [`MouseLand/facemap`](https://github.com/MouseLand/facemap).
+Base CodeOcean capsule template with a working install of [`MouseLand/facemap`](https://github.com/MouseLand/facemap).
 
 ---
 
