@@ -1,5 +1,5 @@
 metadata_version: 1
-name: facemap-base
+name: facemap-capsule-template
 description: Base CodeOcean template capsule with a working install of `MouseLand/facemap`
 authors:
 - name: Ben Hardcastle

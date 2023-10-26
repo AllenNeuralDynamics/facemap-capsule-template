@@ -1,4 +1,4 @@
-# hash:sha256:e474ea7818f5e182b45a29223c179b95eb20b4ddba0e68537ddecee807ff4ec0
+# hash:sha256:9b54b15c15b682561c6147bca61062558fc93b0bb41a8d835a42707ba0165264
 FROM registry.codeocean.allenneuraldynamics.org/codeocean/tensorflow:2.11-python3.10-cuda11.7.0-runtime-ubuntu22.04
 
 ARG DEBIAN_FRONTEND=noninteractive
@@ -31,3 +31,6 @@ RUN pip install -U --no-cache-dir \
     torch==2.1.0 \
     tqdm==4.66.1 \
     umap-learn==0.5.4
+
+COPY postInstall /
+RUN /postInstall
