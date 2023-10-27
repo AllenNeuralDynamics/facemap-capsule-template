@@ -16,13 +16,14 @@ This template sets up a starting point for processing video data with `facemap` 
 
 ## for testing
 get up and running quickly by *cloning this repo* in codeocean:
-- open codeocean in a new tab [here](https://codeocean.allenneuraldynamics.org/).
+- open codeocean in a new tab [here](https://codeocean.allenneuraldynamics.org/)
 - hit the `+` icon (top left) and select `"New Capsule" > "Clone from Git"` and paste the URL for this repo: `https://github.com/AllenNeuralDynamics/facemap-capsule-template`
 - the capsule should open at this readme
 
 ## for more-permanent, collaborative capsule development
 *create a new repo*, which can serve as the remote for one or more capsules:
-- just hit the big green button to "`Use this template`": a new repo will be created after you decide its name
+- open this repository on github [here](https://github.com/AllenNeuralDynamics/facemap-capsule-template)
+- hit the big green button to "`Use this template`": a new repo will be created after you decide its name
 - follow the cloning instructions as per [`# for testing`](#for-testing), but supply the link to your new repo
 - the capsule can now pull changes from github, so you can add or edit your files anywhere, push to github, then pull in codeocean
 - to push changes *from* codeocean to github:
