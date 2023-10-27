@@ -12,7 +12,7 @@ Developing a capsule in codoecean is a lot like developing in a local git reposi
 - changes are tracked as commits, with commit messages
 - changes can be pushed or pulled from a remote
 
-This template sets up a starting point for processing video data with `facemap` capsules.
+This template sets up a starting point for processing video data with `facemap`.
 
 ## for testing
 get up and running quickly by *cloning this repo* in codeocean:
