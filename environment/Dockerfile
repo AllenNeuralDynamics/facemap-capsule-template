@@ -1,4 +1,4 @@
-# hash:sha256:9b54b15c15b682561c6147bca61062558fc93b0bb41a8d835a42707ba0165264
+# hash:sha256:b483f637511fce8db9503838ce623d44e52da275561cb43b49cdfcfca9637e7d
 FROM registry.codeocean.allenneuraldynamics.org/codeocean/tensorflow:2.11-python3.10-cuda11.7.0-runtime-ubuntu22.04
 
 ARG DEBIAN_FRONTEND=noninteractive
@@ -10,6 +10,8 @@ COPY git-askpass /
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         ffmpeg=7:4.4.2-0ubuntu0.22.04.1 \
+        libcublas-12-0=12.0.2.224-1 \
+        libcudnn8=8.9.5.29-1+cuda12.2 \
         libegl1-mesa=23.0.4-0ubuntu1~22.04.1 \
         libsm6=2:1.2.3-1build2 \
         libxext6=2:1.3.4-1build1 \
